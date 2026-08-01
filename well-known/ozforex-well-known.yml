@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of OFX hosts (www.ofx.com, developer.ofx.com, api.ofx.com)
+hosts:
+- host: https://www.ofx.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+notes: >-
+  www.ofx.com/.well-known/security.txt returns 404 (RFC 9116 not published).
+  Additional /.well-known/ endpoints on developer.ofx.com and api.ofx.com could
+  not be verified from this environment; none were confirmed present. No OpenID
+  Connect / OAuth authorization-server discovery is expected since the API uses
+  API-key authentication.

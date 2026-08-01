@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.ofx.com/en-us/partner-with-us/api/
+docs: https://developer.ofx.com/
+summary: >-
+  Cross-cutting conventions for the OFX Payments API, captured from OFX's public
+  API partner page. OFX describes a RESTful API designed for "an easy, low cost
+  integration." Detailed request/response semantics (idempotency, pagination,
+  tracing, error envelope, versioning, rate limits) are documented behind the
+  partner-gated developer portal and could not be captured verbatim; unknown
+  fields are left null rather than guessed.
+architecture: REST
+data_format: JSON
+authentication:
+  style: api-key
+  detail: authentication/ozforex-authentication.yml
+idempotency: null
+pagination: null
+request_tracing: null
+versioning: null
+error_envelope: null
+rate_limiting: null
+cross_links:
+  authentication: authentication/ozforex-authentication.yml
+  sandbox: sandbox/ozforex-sandbox.yml

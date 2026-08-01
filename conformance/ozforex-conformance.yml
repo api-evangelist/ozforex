@@ -1,0 +1,35 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.ofx.com/en-us/legal/
+docs: https://developer.ofx.com/
+standards:
+- id: rest
+  conforms: true
+  evidence: OFX documents the Payments API as a RESTful API (partner-with-us/api page).
+- id: oauth2
+  conforms: false
+  evidence: API authenticates with API keys, not OAuth2.
+- id: fincen-msb
+  conforms: true
+  evidence: >-
+    USForex Inc. d/b/a OFX is registered as a Money Service Business with the
+    Financial Crimes Enforcement Network (FinCEN); licensed money transmitter
+    NMLS #1021624 across multiple U.S. states.
+- id: aml-sanctions-program
+  conforms: true
+  evidence: >-
+    OFX publishes an Anti-Money-Laundering statement, global sanctions information,
+    and sanctions compliance resources.
+- id: soc2
+  conforms: unknown
+  evidence: No SOC 2 attestation found on public pages.
+- id: iso-27001
+  conforms: unknown
+  evidence: No ISO 27001 certification found on public pages.
+- id: pci-dss
+  conforms: unknown
+  evidence: No PCI DSS certification found on public pages.
+compliance_pages:
+- https://www.ofx.com/en-us/legal/sanctions-compliance-resources/
+- https://www.ofx.com/en-us/legal/money-laundering-statement/
+- https://www.ofx.com/en-us/legal/global-sanctions-information/

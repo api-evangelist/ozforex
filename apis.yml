@@ -1,7 +1,14 @@
 aid: ozforex
-name: OzForex
-description: 'OzForex is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+name: OFX (OzForex)
+description: 'OFX (formerly OzForex) is a global money-transfer and international-payments
+  company that has been moving and managing money globally for over 25 years, trading
+  as USForex Inc. in North America. Beyond consumer and business FX, OFX offers a partner
+  Payments API: a RESTful API for international mass payments to 170+ countries in
+  50+ currencies, covering live exchange-rate quotes, recipient account management,
+  and automated payment processing for invoices, payroll, and bulk supplier payments.
+  Developers can build and test against an open sandbox environment before going live,
+  authenticating with API keys. OFX is a registered Money Service Business with FinCEN
+  (NMLS #1021624) and a licensed money transmitter across multiple U.S. states.'
 url: https://raw.githubusercontent.com/api-evangelist/ozforex/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,13 +16,61 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.ofx.com/favicon.ico
 tags:
 - Company
 - Consumer
-apis: []
+- Money Transfer
+- Foreign Exchange
+- International Payments
+- Payments
+- Currency
+- Fintech
+apis:
+- name: OFX Payments API
+  description: 'RESTful partner API for international mass payments — live FX rate
+    quotes, recipient account management, and automated payment processing to 170+
+    countries in 50+ currencies. Authenticated with API keys; an open sandbox
+    environment is available for integration testing before production.'
+  humanURL: https://developer.ofx.com/
+  baseURL: https://api.ofx.com
+  tags:
+  - Payments
+  - Foreign Exchange
+  - Money Transfer
+  properties:
+  - type: DeveloperPortal
+    url: https://developer.ofx.com/
+  - type: Documentation
+    url: https://developer.ofx.com/
+  - type: GettingStarted
+    url: https://www.ofx.com/en-us/partner-with-us/api/
+  - type: Sandbox
+    url: sandbox/ozforex-sandbox.yml
+  - type: Authentication
+    url: authentication/ozforex-authentication.yml
+  - type: Conventions
+    url: conventions/ozforex-conventions.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,4 +78,38 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.ozforex.com.au
+  url: https://www.ofx.com/en-us/
+- type: DeveloperPortal
+  url: https://developer.ofx.com/
+- type: Documentation
+  url: https://developer.ofx.com/
+- type: GettingStarted
+  url: https://www.ofx.com/en-us/partner-with-us/api/
+- type: SignUp
+  url: https://app.ofx.com/registration
+- type: Login
+  url: https://app.ofx.com
+- type: Pricing
+  url: https://www.ofx.com/en-us/transfer-rates/
+- type: Support
+  url: https://www.ofx.com/en-us/contact-us/
+- type: Blog
+  url: https://www.ofx.com/en-us/blog/
+- type: TermsOfService
+  url: https://www.ofx.com/en-us/legal/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.ofx.com/en-us/legal/privacy-policy/
+- type: Compliance
+  url: https://www.ofx.com/en-us/legal/sanctions-compliance-resources/
+- type: Authentication
+  url: authentication/ozforex-authentication.yml
+- type: Sandbox
+  url: sandbox/ozforex-sandbox.yml
+- type: Conventions
+  url: conventions/ozforex-conventions.yml
+- type: Conformance
+  url: conformance/ozforex-conformance.yml
+- type: DomainSecurity
+  url: security/ozforex-domain-security.yml
+- type: WellKnown
+  url: well-known/ozforex-well-known.yml

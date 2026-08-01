@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.ofx.com/en-us/partner-with-us/api/
+docs: https://developer.ofx.com/
+summary: >-
+  OFX publishes an open sandbox environment where partners can build and test
+  integrations against the Payments API before production deployment. The sandbox
+  exposes the same integration surface as production, with coverage advertised at
+  190 countries and 55+ currencies. No published test credentials, magic test
+  values, or test card/bank numbers were found on the public partner page — sandbox
+  access and API keys are issued through partner onboarding, so specific test
+  fixtures could not be captured verbatim (not fabricated).
+environments:
+- name: sandbox
+  description: Open sandbox environment for integration testing before go-live.
+  coverage:
+    countries: 190
+    currencies: '55+'
+  access: Provisioned through partner onboarding at developer.ofx.com
+- name: production
+  description: Live OFX Payments API.
+  base_url: https://api.ofx.com
+test_values: []
