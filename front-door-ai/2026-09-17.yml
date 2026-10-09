@@ -7,14 +7,18 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: www.ofx.com
   final_host: www.ofx.com
-  ownership: own
-  owner: ozforex
-  shares_host_with: null
+  ownership: shared
+  owner: ofx
+  shares_host_with:
+  - ofx
   inherited_from: null
+  alias_of: null
   verdict: scored
-  score: 5
+  score: null
+  band: null
+  band_label: null
   host_score: 5
-  density: 2.73
+  density: null
   words: 1830
   tiers:
     agentic: 0
