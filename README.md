@@ -1,4 +1,4 @@
-# OzForex
+# OFX (OzForex)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-OzForex is a company surfaced as a portfolio company of accel and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.
+OFX (formerly OzForex) is a global money-transfer and international-payments company that has been moving and managing money globally for over 25 years, trading as USForex Inc. in North America. Beyond consumer and business FX, OFX offers a partner Payments API: a RESTful API for international mass payments to 170+ countries in 50+ currencies, covering live exchange-rate quotes, recipient account management, and automated payment processing for invoices, payroll, and bulk supplier payments. Developers can build and test against an open sandbox environment before going live, authenticating with API keys. OFX is a registered Money Service Business with FinCEN (NMLS #1021624) and a licensed money transmitter across multiple U.S. states.
 
-Backed by: accel — http://www.ozforex.com.au
+**Areas:** Company · Consumer · Money Transfer · Foreign Exchange · International Payments · Payments · Currency · Fintech
+
+## OFX (OzForex) on APIs.io
+
+Everything profiled for OFX (OzForex) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ozforex/](https://apis.io/providers/ozforex/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [OFX Payments API](https://apis.io/apis/ozforex/ofx-payments-api/) — RESTful partner API for international mass payments — live FX rate quotes, recipient account management, and automated payment processing to 170+ countries…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ozforex Authentication](https://apis.io/security/ozforex/ozforex-authentication/)
+- [Ozforex Domain Security](https://apis.io/security/ozforex/ozforex-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ofx.com/en-us/)
+- [Documentation](https://developer.ofx.com/)
+- [Getting started](https://www.ofx.com/en-us/partner-with-us/api/)
+- [Pricing](https://www.ofx.com/en-us/transfer-rates/)
+- [Sign up](https://app.ofx.com/registration)
+- [Support](https://www.ofx.com/en-us/contact-us/)
+- [Blog](https://www.ofx.com/en-us/blog/)
+- [Compliance](https://www.ofx.com/en-us/legal/sanctions-compliance-resources/)
+- [Terms of service](https://www.ofx.com/en-us/legal/terms-and-conditions/)
+- [Privacy policy](https://www.ofx.com/en-us/legal/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 26.7** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 46.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 26.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ozforex/](https://apis.io/providers/ozforex/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for OFX (OzForex): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ozforex/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
